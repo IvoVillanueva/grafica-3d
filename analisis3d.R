@@ -4,7 +4,7 @@ library(nbastatR)
 library(scales)
 library(gt)
 
-setwd("~/R/RStudio/grafica 3d")
+
 # Get data -------
 
 df_statsP <- read_csv('stats_tutorial_player_data_2020-21.csv') %>% 
@@ -203,7 +203,7 @@ df_stats_Gt <- df_stats  %>% select(head, player_name, logos,
 
   ) %>% 
   tab_options(
-    table.background.color = " #f4f4f4",
+    table.background.color = "#f4f4f4",
     column_labels.font.size = 11.5,
     column_labels.font.weight = "bold",
     row_group.font.weight = NULL,
